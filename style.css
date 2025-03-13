@@ -16,6 +16,7 @@ header{
 main{
     background-color: rgb(219, 239, 247);
     padding: 40px 30px;
+    width: 100vw;
 }
 
 a{
@@ -24,6 +25,8 @@ a{
 
 ul, ol{
     line-height: 35px;
+    padding: 10px;
+    margin: 10px;
 }
 
 span{
@@ -34,4 +37,34 @@ span{
     padding: 10px 0;
 }
 
+@media (min-width: 1024px){
 
+    header{
+        padding: 50px 0px;
+        line-height: 25px;
+    }
+    
+    .section1, .section2, hr{
+        width: 70%;
+        margin: 0 auto;
+    }
+
+    hr{
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+
+}
+
+@media (min-width: 1350px){
+
+    .section1, .section2, hr{
+        width: 50%;
+        margin: 0 auto;
+    }
+
+    hr{
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+}
